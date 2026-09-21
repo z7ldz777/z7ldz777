@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img">
+<style>
+.bg{fill:#090c12}.panel{fill:#111722;stroke:#283449;stroke-width:2}.red{fill:#e31b23}.blue{fill:#4d8dff}.white{fill:#f5f7fa}.muted{fill:#8d98a8}
+.h{font:700 14px Arial;letter-spacing:3px}.t{font:700 19px Arial}.s{font:500 14px Arial}
+.node{animation:pulse 3s ease-in-out infinite}@keyframes pulse{50%{opacity:.55}}
+</style>
+<rect width="1200" height="520" rx="22" class="bg"/>
+<text x="55" y="45" class="h red">WEB ARSENAL</text>
+<g transform="translate(45,75)">
+<rect width="520" height="185" rx="16" class="panel"/>
+<text x="25" y="38" class="t white">Frontend</text>
+<text x="25" y="72" class="s muted">React</text><text x="125" y="72" class="s muted">React Native</text><text x="255" y="72" class="s muted">TypeScript</text><text x="375" y="72" class="s muted">JavaScript</text>
+<text x="25" y="110" class="s muted">Vite</text><text x="95" y="110" class="s muted">Tailwind CSS</text><text x="225" y="110" class="s muted">Redux Toolkit</text><text x="370" y="110" class="s muted">HTML/CSS</text>
+<text x="25" y="148" class="s muted">Responsive Design</text><text x="205" y="148" class="s muted">RTL / Bilingual</text>
+<circle cx="475" cy="150" r="7" class="red node"/>
+</g>
+<g transform="translate(635,75)">
+<rect width="520" height="185" rx="16" class="panel"/>
+<text x="25" y="38" class="t white">Backend and Data</text>
+<text x="25" y="72" class="s muted">C#</text><text x="75" y="72" class="s muted">ASP.NET Core</text><text x="215" y="72" class="s muted">REST APIs</text><text x="320" y="72" class="s muted">SignalR</text>
+<text x="25" y="110" class="s muted">JWT</text><text x="75" y="110" class="s muted">PostgreSQL</text><text x="185" y="110" class="s muted">Supabase</text><text x="285" y="110" class="s muted">Laravel API</text>
+<text x="25" y="148" class="s muted">OTP Verification</text><text x="185" y="148" class="s muted">Third-party APIs</text>
+<circle cx="475" cy="150" r="7" class="blue node"/>
+</g>
+<g transform="translate(45,285)">
+<rect width="520" height="185" rx="16" class="panel"/>
+<text x="25" y="38" class="t white">Tools and Cloud</text>
+<text x="25" y="78" class="s muted">Git</text><text x="70" y="78" class="s muted">GitHub</text><text x="135" y="78" class="s muted">Azure</text><text x="195" y="78" class="s muted">Vercel</text><text x="265" y="78" class="s muted">Postman</text>
+<text x="25" y="118" class="s muted">Figma</text><text x="85" y="118" class="s muted">UML</text><text x="135" y="118" class="s muted">xUnit</text><text x="190" y="118" class="s muted">Integration Testing</text>
+<text x="25" y="158" class="s muted">Agile</text><text x="80" y="158" class="s muted">System Analysis</text><text x="215" y="158" class="s muted">Project Planning</text>
+<circle cx="475" cy="150" r="7" class="red node"/>
+</g>
+<g transform="translate(635,285)">
+<rect width="520" height="185" rx="16" class="panel"/>
+<text x="25" y="38" class="t white">Creative Technology</text>
+<text x="25" y="78" class="s muted">UI/UX Design</text><text x="135" y="78" class="s muted">Prototyping</text><text x="235" y="78" class="s muted">Canvas API</text>
+<text x="25" y="118" class="s muted">MediaRecorder API</text><text x="190" y="118" class="s muted">Graphic Design</text><text x="320" y="118" class="s muted">Motion Graphics</text>
+<text x="25" y="158" class="s muted">Video Editing</text><text x="135" y="158" class="s muted">Audio</text><text x="190" y="158" class="s muted">Creative Production</text>
+<circle cx="475" cy="150" r="7" class="blue node"/>
+</g>
+</svg>

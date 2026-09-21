@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img">
+<style>
+.bg{fill:#090c12}.grid{stroke:#1f2b3d;stroke-width:1}.red{stroke:#e31b23;fill:none}.blue{fill:#4d8dff}.white{fill:#f5f7fa}.muted{fill:#8d98a8}
+.h{font:700 14px Arial;letter-spacing:3px}.s{font:500 13px Arial}.node{animation:node 2.2s ease-in-out infinite}@keyframes node{50%{opacity:.2}}
+.sway{animation:sway 5s ease-in-out infinite;transform-origin:930px 40px}@keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+</style>
+<rect width="1200" height="420" rx="22" class="bg"/>
+<text x="55" y="45" class="h red">CONTRIBUTION WEB</text>
+<g opacity=".8">
+<path d="M55 85H1145M55 135H1145M55 185H1145M55 235H1145M55 285H1145M55 335H1145" class="grid"/>
+<path d="M105 70V355M155 70V355M205 70V355M255 70V355M305 70V355M355 70V355M405 70V355M455 70V355M505 70V355M555 70V355M605 70V355M655 70V355M705 70V355M755 70V355M805 70V355M855 70V355M905 70V355M955 70V355M1005 70V355M1055 70V355M1105 70V355" class="grid"/>
+</g>
+<g class="sway">
+<path d="M930 0 Q965 25 930 65 Q895 105 930 145 Q965 185 930 225" class="red" stroke-width="2"/>
+<circle cx="930" cy="65" r="6" class="blue"/>
+</g>
+<g>
+<circle cx="155" cy="135" r="6" class="blue node"/><circle cx="255" cy="235" r="5" class="blue node"/>
+<circle cx="355" cy="185" r="6" class="blue node"/><circle cx="455" cy="285" r="5" class="blue node"/>
+<circle cx="555" cy="135" r="6" class="blue node"/><circle cx="655" cy="235" r="5" class="blue node"/>
+<circle cx="755" cy="185" r="6" class="blue node"/><circle cx="855" cy="285" r="5" class="blue node"/>
+<circle cx="955" cy="135" r="6" class="blue node"/><circle cx="1055" cy="235" r="5" class="blue node"/>
+</g>
+<text x="55" y="385" class="s muted">A comic-book inspired activity panel for Zaid's GitHub profile. Contribution count shown from the current profile snapshot.</text>
+</svg>

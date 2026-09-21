@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img">
+<style>
+.bg{fill:#090c12}.card{fill:#111722;stroke:#283449;stroke-width:2}.red{fill:#e31b23}.blue{fill:#4d8dff}.white{fill:#f5f7fa}.muted{fill:#8d98a8}
+.h{font:700 14px Arial;letter-spacing:3px}.t{font:700 22px Arial}.s{font:500 14px Arial}.pulse{animation:pulse 2.4s infinite}@keyframes pulse{50%{opacity:.5}}
+</style>
+<rect width="1200" height="380" rx="22" class="bg"/>
+<text x="55" y="45" class="h red">HERO ACHIEVEMENTS</text>
+<g transform="translate(45,75)">
+<rect width="335" height="245" rx="16" class="card"/>
+<circle cx="70" cy="70" r="35" class="red pulse"/><path d="M70 45L77 62L95 64L81 76L85 94L70 84L55 94L59 76L45 64L63 62Z" class="white"/>
+<text x="125" y="68" class="t white">PROJECT LEAD</text><text x="125" y="94" class="s muted">SWAG graduation project</text>
+<text x="25" y="145" class="s white">4-person team</text><text x="25" y="172" class="s muted">90+ mobile screens</text><text x="25" y="199" class="s muted">93 REST endpoints</text><text x="25" y="226" class="s muted">Azure deployment</text>
+</g>
+<g transform="translate(425,75)">
+<rect width="335" height="245" rx="16" class="card"/>
+<circle cx="70" cy="70" r="35" class="blue pulse"/><path d="M50 70L65 55L80 70L65 85Z" class="white"/>
+<text x="125" y="68" class="t white">FRONTEND BUILDER</text><text x="125" y="94" class="s muted">Product-focused UI work</text>
+<text x="25" y="145" class="s white">React and React Native</text><text x="25" y="172" class="s muted">19 reusable components</text><text x="25" y="199" class="s muted">Bilingual RTL interfaces</text><text x="25" y="226" class="s muted">Figma to implementation</text>
+</g>
+<g transform="translate(805,75)">
+<rect width="350" height="245" rx="16" class="card"/>
+<circle cx="70" cy="70" r="35" class="red pulse"/><path d="M50 75L70 50L90 75L70 90Z" class="white"/>
+<text x="125" y="68" class="t white">CREATIVE TECH</text><text x="125" y="94" class="s muted">Engineering plus media</text>
+<text x="25" y="145" class="s white">Canvas and MediaRecorder</text><text x="25" y="172" class="s muted">GIF and WebM generation</text><text x="25" y="199" class="s muted">UI/UX and prototyping</text><text x="25" y="226" class="s muted">Video editing and motion</text>
+</g>
+</svg>

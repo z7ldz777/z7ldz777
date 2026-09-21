@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Zaid Shareef Spider-Sense profile header</title>
+<desc id="desc">Animated comic-book inspired developer profile header.</desc>
+<style>
+  .bg{fill:#080b10}.red{fill:#e31b23}.blue{fill:#1e5eff}.white{fill:#f4f7fb}
+  .muted{fill:#9aa4b2}.line{stroke:#e31b23;stroke-width:2;fill:none;opacity:.65}
+  .grid{stroke:#233044;stroke-width:1;opacity:.45}
+  .title{font:700 56px Arial,sans-serif;letter-spacing:3px}.sub{font:600 20px Arial,sans-serif;letter-spacing:5px}
+  .small{font:500 15px Arial,sans-serif;letter-spacing:2px}
+  .pulse{animation:pulse 2.6s ease-in-out infinite}.swing{animation:swing 4s ease-in-out infinite;transform-origin:950px 65px}
+  @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+  @keyframes swing{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+</style>
+<rect width="1200" height="420" rx="24" class="bg"/>
+<g class="grid">
+  <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200"/>
+  <path d="M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420"/>
+</g>
+<path d="M0 335 L180 300 L310 360 L470 320 L610 380 L760 330 L930 370 L1200 305" class="line pulse"/>
+<g opacity=".9">
+  <circle cx="1020" cy="82" r="5" class="red pulse"/>
+  <path d="M1020 82 L1010 170 L1040 245 L1018 330" class="line"/>
+  <path d="M1010 170 L930 120 M1010 170 L1100 120 M1040 245 L960 300 M1040 245 L1120 300" class="line"/>
+  <circle cx="1010" cy="170" r="4" class="blue"/>
+  <circle cx="1040" cy="245" r="4" class="blue"/>
+</g>
+<g class="swing">
+  <path d="M930 0 Q990 30 1020 82" stroke="#d7dce5" stroke-width="2" fill="none"/>
+  <circle cx="930" cy="0" r="3" fill="#d7dce5"/>
+</g>
+<text x="70" y="145" class="small red">SPIDER-SENSE PROFILE</text>
+<text x="70" y="215" class="title white">ZAID MOSTAFA</text>
+<text x="70" y="270" class="title white">SHAREEF</text>
+<text x="72" y="315" class="sub blue">FULL-STACK DEVELOPER</text>
+<text x="72" y="350" class="small muted">REACT  /  REACT NATIVE  /  ASP.NET CORE  /  POSTGRESQL</text>
+</svg>

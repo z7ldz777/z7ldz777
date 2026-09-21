@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img">
+<style>
+.bg{fill:#090c12}.white{fill:#f5f7fa}.muted{fill:#8d98a8}.red{stroke:#e31b23;fill:none}.blue{fill:#4d8dff}.grid{stroke:#243043;stroke-width:1}
+.h{font:700 14px Arial;letter-spacing:3px}.n{font:700 44px Arial}.s{font:500 14px Arial}
+.web{animation:spin 16s linear infinite;transform-origin:970px 150px}@keyframes spin{to{transform:rotate(360deg)}}
+.dot{animation:blink 2s ease-in-out infinite}@keyframes blink{50%{opacity:.25}}
+</style>
+<rect width="1200" height="300" rx="22" class="bg"/>
+<text x="55" y="45" class="h red">WEB SWING</text>
+<text x="55" y="105" class="n white">87</text><text x="58" y="137" class="s muted">contributions in the last year</text>
+<g class="web">
+<circle cx="970" cy="150" r="105" class="red" stroke-width="2"/>
+<circle cx="970" cy="150" r="72" class="red" stroke-width="1.5"/>
+<circle cx="970" cy="150" r="38" class="red" stroke-width="1.5"/>
+<path d="M970 45V255M865 150H1075M895 75L1045 225M1045 75L895 225" class="red"/>
+</g>
+<g>
+<circle cx="970" cy="150" r="7" class="blue dot"/>
+<circle cx="895" cy="75" r="4" class="blue dot"/>
+<circle cx="1045" cy="225" r="4" class="blue dot"/>
+<circle cx="1045" cy="75" r="4" class="blue dot"/>
+</g>
+</svg>
